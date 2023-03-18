@@ -26,6 +26,7 @@
                     Tentang Kami
                 </a>
             </div>
+
         </nav>
         <div class='mx-10'>
             <div class='flex-col pt-20'>
@@ -51,40 +52,15 @@
                         
                         </div>
                     </div>
-                    <div class='grid place-items-center'>
+                    <div class='grid place justify-end'>
                         <div>
-                            <button class="bg-abu-abu hover:bg-abu-abu-hover  py-2 px-4 rounded-xl mr-5">
-                                <div class='grid place-items-center'>
-                                    <a href="#">
-                                        <div class='flex mb-2'>
-                                            <div class='mr-1'>
-                                                Pencarian Lanjutan
-                                            </div>
-                                            <div class='grid place-items-center pt-1'>
-                                                <img src=" {{ asset('assets/arrow.png') }}" class="place-items-center" alt="" > 
-                                            </div>
-                                            
-                                        </div>
-                                    </a>
-                                   
-                                    
-                                   
-                                </div>
-                            </button>
-                            <button class="bg-abu-abu hover:bg-abu-abu-hover py-2 px-4 rounded-xl">
-                                <div class='grid place-items-center'>
-                                    <a href="#">
-                                        <div class='flex'>
-                                                <div class='mr-1'>
-                                                    <p>
-                                                        Lihat Peta
-                                                    </p>
-                                                </div>
-                                                <img src=" {{ asset('assets/map.png') }}" class="place-items-center"  alt="" >
-                                        </div>
+                            <div class='flex mb-2'>
+                                <div>
+                                    <a href="#" class='text-warna-link hover:text-warna-hover mr-4'>    
+                                        Pencarian Lanjutan
                                     </a>
                                 </div>
-                            </button>
+                            </div>
                         </div>
                     </div>
                 </div>
