@@ -6,7 +6,17 @@ module.exports = {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ['"Bree Serif"', 'sans-serif']
+    },
+    extend: {
+      colors: {
+        'hijau-telur-asin': '#43ADB7',
+        'abu-abu': '#EEEEEE',
+        'abu-abu-hover': '#BCBCBC',
+        
+      },
+    },
   },
   plugins: [],
 }
