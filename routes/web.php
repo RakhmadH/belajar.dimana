@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/ver2', function () {
-    return view('welcomeVer2');
+Route::get('/pencarian_lanjutan', function () {
+    return view('pencarian_lanjutan');
 });

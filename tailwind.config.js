@@ -14,8 +14,9 @@ module.exports = {
         'hijau-telur-asin': '#43ADB7',
         'abu-abu': '#EEEEEE',
         'abu-abu-hover': '#BCBCBC',
-        'warna-link': '#33B185',
-        'warna-hover': '#278766',
+        'warna-link': '#63BBC3',
+        'warna-hover': '#478C93',
+        'warna-bg-search': '#F5F5F5',
 
         
       },
