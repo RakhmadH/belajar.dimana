@@ -25,7 +25,7 @@ mx-[2rem] lg:mx-[5rem]
                                 id="search"
                                 placeholder="Mau Belajar Dimana?" />
                             </div>
-                            <a href="/pencarian_lanjutan" class='text-warna-link hover:text-warna-hover flex flex-row-reverse pt-[15px]'>
+                            <a href="{{ route('advanceSearch') }}" class='text-warna-link hover:text-warna-hover flex flex-row-reverse pt-[15px]'>
                                         Pencarian Lanjutan
                                     </a>
                         </div>
