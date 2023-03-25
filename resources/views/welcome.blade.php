@@ -31,7 +31,7 @@
         <div class='mx-10'>
             <div class='flex-col pt-5 lg:pt-20 pb-[8vh]'>
                 <div class ='flex justify-center items-center pt-28 mb-12'>
-                    <img src="{{ asset('assets/logo.png') }}">
+                    <img src="{{ asset('assets/logo_baru.png') }}">
                     <p class='text-5xl sm:text-6xl text-center text-hijau-telur-asin grid place-items-center ml-3'> Belajar Dimana</p>       
                 </div>
                 <div class='flex-col'>
