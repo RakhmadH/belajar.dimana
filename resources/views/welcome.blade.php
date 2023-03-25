@@ -1,38 +1,13 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-       
-        <title>Belajar Dimana</title>
-
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=bree-serif:400" rel="stylesheet" />
-
-        <!-- Styles -->
-
-         @vite('resources/css/app.css')
-    </head>
-    <body class="mx-[2rem] lg:mx-[5rem]">
-        <nav class="flex items-center content-between flex-wrap py-[2rem]"> <a href=""></a>
-            <div class='mr-6'>
-                <a href="#" class='sm:text-[1rem] md:text-md xl:text-xl  '>
-                    Blog
-                </a>
-            </div>
-            <div class='mr-6'>
-                <a href="#" class='sm:text-[1rem] md:text-md xl:text-xl '>
-                    Tentang Kami
-                </a>
-            </div>
-
-        </nav>
+@extends('layouts.base')
+@section('requirementBody')
+mx-[2rem] lg:mx-[5rem]
+@endsection
+@section('content')
         <div class='mx-10'>
             <div class='flex-col pt-5 lg:pt-20 pb-[8vh]'>
                 <div class ='flex justify-center items-center pt-28 mb-12'>
                     <img src="{{ asset('assets/logo_baru.png') }}">
-                    <p class='text-5xl sm:text-6xl text-center text-hijau-telur-asin grid place-items-center ml-3'> Belajar Dimana</p>       
+                    <p class='text-5xl sm:text-6xl text-center text-hijau-telur-asin grid place-items-center ml-3'> Belajar Dimana</p>
                 </div>
                 <div class='flex-col'>
                     <div class='flex justify-center items-center '>
@@ -43,25 +18,25 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                                     </svg>
                                 </div>
-                                
+
                                 <input
                                 class="peer h-full w-full outline-none text-md text-gray-700 pr-2 bg-warna-bg-search "
                                 type="text"
                                 id="search"
-                                placeholder="Mau Belajar Dimana?" /> 
+                                placeholder="Mau Belajar Dimana?" />
                             </div>
-                            <a href="/pencarian_lanjutan" class='text-warna-link hover:text-warna-hover flex flex-row-reverse pt-[15px]'>    
+                            <a href="/pencarian_lanjutan" class='text-warna-link hover:text-warna-hover flex flex-row-reverse pt-[15px]'>
                                         Pencarian Lanjutan
                                     </a>
-                        </div>   
+                        </div>
                     </div>
                     <div class ='flex flex-row-reverse pr-[10vw] md:pr-[15vw] lg:pr-[19vw] min-w-[300px]'>
                     <div>
-                                    
+
                                 </div>
-                                
+
                     </div>
-                </div>                    
+                </div>
             </div>
             <div class="flex flex-col lg:flex-row items-center justify-center mb-[70px]">
                 <div class='box-border bg-warna-bg-search ml-0 mb-10  h-[20vh] w-[20vh] md:h-[25vh] md:w-[25vw] lg:mb-0 lg:h-[25vh] lg:w-[20vw]'></div>
@@ -71,3 +46,4 @@
         </div>
     </body>
 </html>
+@endsection
